@@ -1,0 +1,157 @@
+.create{
+    width: 100%;
+    /* display: flex; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* float: left; */
+    margin-top: 2%;
+}
+
+
+
+.formm{
+    margin-top: -50%;
+    /* margin-left: 500px; */
+}
+
+
+
+.upload{
+    max-width: 450px;
+    height: 500px;
+    width: 100%;
+    border:2px solid #20124d46;
+    padding: 15px;
+    margin: 20px;
+    position: relative;
+    
+}
+#file{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+#file::before{
+    content:url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/down-arrow_zJTVqILO_thumb.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:white;
+    color: #20124db4;
+    font-size: 14rem;
+    text-align: center;
+    /* text-shadow: #000000 0px 0px 10px ; */
+    cursor: pointer;
+    margin: auto;
+}
+#img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    
+    
+}
+
+#img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    
+}
+#img button{
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    border: 1px solid rgb(27, 14, 14);
+    border-radius: 50%;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-weight: 900;
+    color: red;
+    background-color: white;
+
+}
+.center{
+    text-align: center;
+   
+}
+.border{
+    border: 5px solid rgb(27, 14, 14);
+    box-shadow: 0px 0px 10px 4px #002147de;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+#formm{
+    margin-left: 50%;
+    margin-right: 10%;
+}
+
+
+
+
+#formm label{
+    width: 10%;
+    margin-right: 50px 0;
+}
+#formm input,textarea{
+ width: 100%;
+ min-height: 40px;
+ padding: 0 15px; 
+} 
+
+.updatebtn{
+    margin-left: -140px;
+}
+
+
+
+.ml{
+    /* margin-left: 30%; */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.load{
+    margin-top: 20px;
+}
+
+
+.Add{
+    text-align: center;
+    margin-top: 2%;
+}
+/* shehshan added */
+.she1:hover{
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+.d1{
+    position: relative;
+    top : "-1000px";
+    left : "20px";
+}
+
+.d2:hover{
+    color: white i !important;
+}
+.btn-primary{
+    background-color: #002147 !important;
+}
+
+.btn-dark{
+    background-color: "#ffc107" !important ;
+}

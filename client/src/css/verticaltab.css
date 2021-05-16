@@ -1,0 +1,333 @@
+* {box-sizing: border-box}
+
+
+body {font-family:segoe UI;
+    overflow-x:hidden;
+    }
+
+/* Style the tab */
+ .Aim{
+     margin-top: 4%;
+ }
+
+ .backgro{
+     background-color: #20124DB6;
+ }
+
+.background{
+    background-image: url("https://images.pexels.com/photos/5473298/pexels-photo-5473298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    color:  rgb(255, 254, 254);
+}
+
+/* ---------------------------------------Animation------------------------------------- */
+
+
+.icons{
+  width: 90px;
+  height: 90px;
+  color: #20124DB6;
+  display: table;
+  text-align: center;
+  margin: 0 auto;
+  /* margin-bottom: 30px; */
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.icons:hover{
+    background-color:rgb(57, 83, 197);
+    color: #000;
+}
+.dd{
+    border: 2px solid black;
+    padding: 0% 2%;
+}
+
+#footerr{
+    /* background-color:  #E9967A; */
+    color: #000;
+}
+ .display{
+     display: inline;
+     margin-left: 3%;
+}
+
+ .ICON{
+    width: 40px;
+    height: 40px;
+border-radius: 100px;
+color:#000;
+}
+
+.ICON:hover{
+  background-color: black;
+  color: white;
+}
+
+.iconss{
+    width: 90px;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.04);
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+    /* margin-bottom: 30px; */
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+  .Counter{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+  .link{
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+   
+    text-decoration: none;
+    color: white;
+}
+
+.btnn{
+    margin-left: 2%;
+}
+
+.bgg{
+    background-color: #20124d46;
+    margin: 0px 0px;
+}
+
+.bgg div h4{
+    color: white;
+}
+
+.ul{
+    z-index:20;
+    background-color:#EBEBEB;
+    position:absolute;
+    left: 0px;
+    height:100%;
+    width:15%;  
+    list-style-type: none;
+    overflow-y:auto;
+    overflow-x: hidden;
+padding-left:0px;
+
+}
+.ultra{
+    z-index:20;
+    background-color:#EBEBEB;
+    position:absolute;
+    left: 0px;
+    height:100%;
+    margin-left: 15%;
+    list-style-type: none;
+    overflow-y:auto;
+    overflow-x: hidden;
+padding-left:0px;
+
+}
+
+/* --------------------------------------intro.css------------------------------------------------ */
+
+.intro{
+ text-indent: 6%;
+ text-align: justify;
+}
+.intro-img{
+        float: left;
+        color: rgb(192, 67, 67);
+        margin-top: 1%;
+        height: 16%;
+}
+
+.bg-intro{
+    background-color: rgba(69, 69, 105, 0.5);
+    
+}
+.ht-img{
+    width: 100%;
+    height: 30%;
+}
+.note{
+    background-color: rgba(192, 67, 67, 0.404);
+    border-left: rgb(192, 67, 67) 4px solid;
+}
+
+.point{
+    width: 2%;
+    height: 2%;
+    color: rgb(71, 71, 189);
+}
+.line{
+    line-height: 35px;
+    text-align: justify;
+}
+
+.bg-card{
+    background-color: #EBEBEB;
+}
+.icons2{
+    width: 150px;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.04);
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 30%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.img2{
+    width: 100%;
+}
+.img3{
+    height: 40%;
+    border: black 1px solid;
+}
+.uphand{
+    width: 30px;
+    height: 30px;
+    color:rgb(71, 71, 189) ;
+}
+
+.Nb{
+    margin-top: 0px;
+}
+
+.li{
+    text-decoration: none;
+    color: darkslategray;
+    text-align: centclassName="point"er;
+    
+}
+.ul h5{
+    text-align: center;
+}
+.img4{
+    height: 40%;
+}
+#img5{
+    width: 100%;
+    height: 45%;
+}
+.pointr{
+    width: 6%;
+    height: 30px;
+    color: rgb(71, 71, 189);
+
+}
+.cen-h{
+    text-align: center;
+}
+.hands{
+    line-height: 45px;
+}
+#note{
+    color: red;
+}
+#Note{
+    background-color: rgb(192, 67, 67);
+}
+
+.search{
+   width: 25%;
+   margin-left: auto;
+   margin-top: -44px;
+}
+.top-12{
+    clear: left;
+    margin-top: -95px;
+}
+.curosal{
+    height: 500px;
+}
+.box{
+    width: 100%;
+    height: 900px;
+}
+
+.dddd{
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    background-color: #1234;
+    margin-top: 40%;
+}
+
+.justin{
+    
+    margin-left: 14%;
+    text-align: justify;
+}
+.bgimage{
+    background-image: url(https://images.pexels.com/photos/157879/gift-jeans-fashion-pack-157879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    min-height: 30px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 70px; 
+}
+.textdesign{
+    font-weight: 700;
+    font-size: 60px;
+    /* padding: 20px; */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+.category{
+    margin-left: 66%;
+
+}
+
+.images{
+    height: 20rem;
+    width: 20rem;
+}
+.abcd{
+
+    width:"10rem";
+     margin-left:29%;
+}
+
+.create-img{
+        float: left;
+}
+
+.bk-bg{
+background-color: #002147de;
+
+}
+.focus:focus{
+        box-shadow: 0 0 0 0.2rem  #80bdff;
+}
+.checkkkk{
+    position:absolute;
+    z-index: 2;
+}
+
+.Category{
+    border: 1px solid #000;
+    box-shadow: 0px 0px 10px 4px #002147de;
+    margin: 40px 200px;
+    border-radius: 10px;
+}

@@ -1,0 +1,73 @@
+.pro{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(317px,1fr));
+}
+
+.cardd:hover{
+    box-shadow: 0px 0px 20px 2px #002147;
+}
+
+.my{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.cmy{
+    margin-left: 4%;
+    
+}
+/* .Style{
+    border:1px solid;
+} */
+
+.butt{
+    justify-content: space-between;
+    text-align: center;
+}
+
+.right{
+    margin-right: 10%;
+    /* width: 30%; */
+}
+
+.buy{
+    width: 40%;
+}
+
+
+
+.over{
+    height: 90px;
+    overflow: auto;
+    text-align: center;
+}
+
+.cent{
+    text-align: center;
+    color: blue;
+    
+}
+.loading {
+
+text-align: center;
+margin-top:15%;
+
+}
+
+
+.Cart{
+    text-align: center;
+    margin: 17% 0%;
+}
+
+.trash{
+    color: red;
+}
+.imageurl{
+
+    
+    width:"200rem";
+     margin-left:50px;
+     margin-right:50px;
+     margin-top:20px
+}
